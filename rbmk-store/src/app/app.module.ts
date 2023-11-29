@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StoreSectionComponent } from './store-section/store-section.component';
+import { CardItemComponent } from './components/card-item/card-item.component';
 
 @NgModule({
     declarations: [
@@ -16,7 +17,8 @@ import { StoreSectionComponent } from './store-section/store-section.component';
         BrowserModule,
         AppRoutingModule,
         BrowserAnimationsModule,
-        StoreSectionComponent
+        StoreSectionComponent,
+        CardItemComponent
     ]
 })
 export class AppModule { }
