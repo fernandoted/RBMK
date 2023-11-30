@@ -5,6 +5,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { CardItemComponent } from '../components/card-item/card-item.component';
+import { TitleSectionComponent } from '../components/title-section/title-section.component';
 
 @Component({
   selector: 'app-store-section',
@@ -16,7 +17,8 @@ import { CardItemComponent } from '../components/card-item/card-item.component';
     MatButtonModule,
     MatIconModule,
     MatDividerModule,
-    CardItemComponent
+    CardItemComponent,
+    TitleSectionComponent
   ],
 })
 export class StoreSectionComponent {

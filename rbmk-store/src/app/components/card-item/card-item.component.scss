@@ -7,6 +7,8 @@
   box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.1);
   .cardImg-wrapper {
     max-width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
 

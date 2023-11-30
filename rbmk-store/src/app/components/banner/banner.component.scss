@@ -1,0 +1,31 @@
+.banner-img {
+  height: 100vh;
+  background-image: url(../../../assets/control-panel.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-title-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 3rem;
+  box-sizing: border-box;
+  .banner-title {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 25rem;
+    font-size: 7rem;
+    color: #000;
+    opacity: .5;
+    margin-bottom: .25rem;
+  }
+  .banner-subtitle {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: .25rem;
+    font-size: 3rem;
+    opacity: .5;
+    color: #000;
+  }
+}
