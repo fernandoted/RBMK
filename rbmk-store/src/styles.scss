@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
+
+
 html, body {
   height: 100%;
 }
@@ -8,6 +10,32 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
+
+@font-face {
+  font-family: 'Soviet';
+  src: url('assets/Soviet-M4Kw.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p, small, span {
+  color: #757575;
+}
+
+/* colors */
+$red-danger: #FF5252;
+$smoke-gray: #9e9e9e;
+$charcoal-black: #333333;
+$concrete-gray: #757575;
+$yellow-warning: #FFEB3B;
+
+
+// Verde Radioativo: #4CAF50
+// 		Cinza concreto: #757575
+// 		Preto de carvão: #333333
+// 		Amarelo de alerta: #FFEB3B
+// 		Vermelho de perigo: #FF5252
+// 		Tons de cinza fumaça: #9E9E9E
 
 .section-container {
   padding-top: 2rem;

@@ -1,3 +1,7 @@
+@import '../../../styles.scss';
+
+// $red-danger: #4CAF50;
+
 .banner-img {
   height: 100vh;
   background-image: url(../../../assets/control-panel.png);
@@ -14,18 +18,18 @@
   padding-right: 3rem;
   box-sizing: border-box;
   .banner-title {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Soviet', sans-serif;
     margin-top: 25rem;
-    font-size: 7rem;
-    color: #000;
-    opacity: .5;
+    font-size: 8rem;
+    color: $red-danger;
+    // opacity: .5;
     margin-bottom: .25rem;
   }
   .banner-subtitle {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Soviet', sans-serif;
     margin-top: .25rem;
     font-size: 3rem;
-    opacity: .5;
-    color: #000;
+    // opacity: .5;
+    color: $charcoal-black;
   }
 }
