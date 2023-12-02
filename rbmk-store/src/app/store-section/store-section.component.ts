@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 
-import { MatCardModule } from '@angular/material/card';
+// import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { CardItemComponent } from '../components/card-item/card-item.component';
 import { TitleSectionComponent } from '../components/title-section/title-section.component';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-store-section',
@@ -13,12 +14,13 @@ import { TitleSectionComponent } from '../components/title-section/title-section
   styleUrls: ['./store-section.component.scss'],
   standalone: true,
   imports: [
-    MatCardModule,
+    // MatCardModule,
     MatButtonModule,
     MatIconModule,
     MatDividerModule,
     CardItemComponent,
-    TitleSectionComponent
+    TitleSectionComponent,
+    // RouterOutlet
   ],
 })
 export class StoreSectionComponent {

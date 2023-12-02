@@ -4,6 +4,8 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
+import { RouterOutlet } from '@angular/router';
+
 
 @Component({
   selector: 'app-card-item',
@@ -14,7 +16,8 @@ import { MatDividerModule } from '@angular/material/divider';
     MatCardModule,
     MatButtonModule,
     MatIconModule,
-    MatDividerModule
+    MatDividerModule,
+    RouterOutlet
   ],
 })
 export class CardItemComponent {
